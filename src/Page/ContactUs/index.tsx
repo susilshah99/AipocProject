@@ -24,6 +24,11 @@ const MessageButton = styled(Button)`
   @media screen and (max-width: 768px) {
     margin-bottom: 25px;
   }
+  &:hover {
+    background: white;
+    border: 1px solid red;
+    color: black;
+  }
 `;
 
 const ContactUs = () => {
