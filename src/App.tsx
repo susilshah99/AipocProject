@@ -5,6 +5,7 @@ import { Route, Switch } from "react-router-dom";
 import ContactUs from "./Page/ContactUs";
 import "antd/dist/antd.css";
 import Sidebar from "./Components/Sidebar";
+import Footer from "./Components/Footer";
 
 function App() {
   const [isOpen, setIsOpen] = useState<any>(false);
@@ -19,6 +20,7 @@ function App() {
       <Switch>
         <Route path="/contact" component={ContactUs} />
       </Switch>
+      <Footer />
     </React.Fragment>
   );
 }
